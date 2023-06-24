@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Sidharth Kalje's Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidKalje/PersonalWebsite.git"
+  },
+  "author": "Sidharth Kalje",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SidKalje/PersonalWebsite/issues"
+  },
+  "homepage": "https://github.com/SidKalje/PersonalWebsite#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
