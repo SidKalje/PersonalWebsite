@@ -1,0 +1,93 @@
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  scroll-behavior: smooth;
+}
+
+#homePage {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(6, 119, 175),
+    rgb(2, 57, 121)
+  );
+  margin: 0;
+  padding-top: 50px;
+}
+
+#homePage a {
+  color: #add8e6;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+#homePage h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: #add8e6;
+  padding-top: 50px;
+}
+
+.welcometext {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: #add8e6;
+  margin-top: 25vh;
+  margin-right: 50px;
+}
+
+#projects {
+  text-align: center;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  border-top: 1px;
+  border-color: black;
+  background-color: rgb(2, 57, 121);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px; /* Adjust this value to increase/decrease the gaps between cards */
+  justify-items: center;
+  align-items: start; /* You can change this if you want to align items differently */
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header {
+  margin-bottom: 50px;
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: #add8e6;
+  position: relative;
+  top: 0;
+}
+
+.project-card {
+  width: 40rem;
+  height: 75vh !important;
+  background-color: #e6f7ff !important;
+}
+
+#aboutme {
+  background-image: linear-gradient(to top, rgb(6, 119, 175), rgb(2, 57, 121));
+  margin: 0;
+  height: 75vh;
+  padding-top: 50px;
+}
