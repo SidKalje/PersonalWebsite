@@ -105,6 +105,7 @@ body {
   border-bottom-style: solid!important;
   border-bottom-color: rgb(6, 119, 175) !important;
   border-width: 1px !important;
+  height: 50vh !important;
 }
 
 .card-text-box{
